@@ -28,7 +28,7 @@ def optimal_predict(number: int = 1) -> int:
     # цикл сравнивает середину проверяемого диапазона с искомым числом     
     while mid_number != number:
         count += 1
-        mid_number = round((max_number+min_number) / 2) # находим середину проверяемого диапазона        
+        mid_number = (max_number+min_number) // 2 # находим середину проверяемого диапазона        
         if number > mid_number:
             min_number = mid_number # задаем новую нижнюю границу диапазона
         elif number < mid_number:
@@ -58,5 +58,5 @@ def score_game(optimal_predict) -> int:
 
 
 if __name__ == "__main__":
-    # RUN
+    #RUN
     score_game(optimal_predict)
