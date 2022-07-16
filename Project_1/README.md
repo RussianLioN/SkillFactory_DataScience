@@ -42,7 +42,7 @@
 
 файлы данных:
 
-- [dst-3.0_16_1_hh_database.csv](https://disk.yandex.ru/d/gRrbNWCL-wjtQw "Исходный файл резюме")
+- [dst-3.0_16_1_hh_database.csv](https://disk.yandex.ru/d/gRrbNWCL-wjtQw "Исходный файл резюме") (Необходимо загрузить по ссылке и добавить в папку дата)
 - ExchangeRates.csv
 
 ноутбук-шаблон
